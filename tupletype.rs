@@ -1,13 +1,9 @@
 fn main(){
-    tupletype();
-}
+    let tup: (f32,i32,u8) = (4.2,500,4);
 
-fn tupletype(){
-    let tup (i32,f64) =(-400,6.4);
+    //destructuring the tuple 
+    let(_x, _y, _z) = tup;
+    println!("The value of x is: {_x}");
 
-    let (_x,_y)= tup;
-
-    println!("The value of x is {_x}");
-    println!("The value of y is {_y}");
-
+    
 }

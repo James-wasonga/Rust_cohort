@@ -7,5 +7,5 @@ fn main(){
 
     //accessing tupple using period[.] and index
     let _ans = tup.1;
-    println!("The value of y is : {_y}"); 
+    println!("The value of y is : {_ans}"); 
 }

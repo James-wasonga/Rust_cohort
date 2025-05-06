@@ -14,8 +14,8 @@ fn main() {
     println!("Please enter the second number:");
     
     let mut num2 = String::new();
-    io::stdin().read_line(&mut num2).
-    expect("Failed to read line");
+    io::stdin().read_line(&mut num2)
+    .expect("Failed to read line");
     let num2: f64 = num2.trim().parse()
     .expect("Please enter valid number");
 
